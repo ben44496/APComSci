@@ -10,5 +10,9 @@ Diamond Maker
     - 5x5 Filled diamond maker
     - Any sized diamond
     - Any size, any regular polygon
+    Future add-ins:
+    - odd polygons
+    - filled any size, any regular polygon,
+    
     
 

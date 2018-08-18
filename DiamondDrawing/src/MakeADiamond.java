@@ -52,10 +52,10 @@ public class MakeADiamond implements Directions {
 			//World.setSize(worldSizeX, worldSizeY);
 			AnySizeDiamond();
 		} else if (choice ==4){
-			System.out.println("d");
+			System.out.println(choice);
 			AnySizeAnyShapePrompt();
 		}else{
-			System.out.println("Not a choice.");
+			System.out.println(choice +" is not a choice.");
 			TryAgain();
 		}
 	}
