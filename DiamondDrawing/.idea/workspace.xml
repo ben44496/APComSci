@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f99f1d1-795d-4d2a-b76a-e64e07af6a0a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DiamondDrawing/MakeADiamond.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiamondDrawing/MakeADiamond.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MakeADiamond.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MakeADiamond.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -77,21 +75,27 @@
     <session id="805428712">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.10" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="21" />
+          <entry key="java" value="612" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="21" />
+          <entry key="JAVA" value="612" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.file.types.open" />
+      <usages-collector id="statistics.spring.boot.mvc.usages" />
+      <usages-collector id="statistics.file.extensions.open" />
+      <usages-collector id="statistics.spring.boot.run.usages" />
     </session>
   </component>
   <component name="FileEditorManager">
@@ -99,10 +103,25 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MakeADiamond.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="795">
-              <caret line="53" column="31" lean-forward="true" selection-start-line="53" selection-start-column="31" selection-end-line="53" selection-end-column="31" />
+            <state relative-caret-position="720">
+              <caret line="240" column="5" lean-forward="true" selection-start-line="240" selection-start-column="5" selection-end-line="240" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="method#prompt#0;class#MakeADiamond#0" />
+                <element signature="method#fiveByFive#0;class#MakeADiamond#0" />
+                <element signature="method#fiveByFiveFilled#0;class#MakeADiamond#0" />
+                <element signature="method#anySizeTriangle#0;class#MakeADiamond#0" />
+                <element signature="method#anySizeSquare#0;class#MakeADiamond#0" />
+                <element signature="method#anySizeDiamond#0;class#MakeADiamond#0" />
+                <element signature="method#anySizePentagon#0;class#MakeADiamond#0" />
+                <element signature="method#anySizeHexagon#0;class#MakeADiamond#0" />
+                <element signature="method#anySizeOctogon#0;class#MakeADiamond#0" />
+                <element signature="method#anySizeAnyShapePrompt#0;class#MakeADiamond#0" />
+                <element signature="method#askForSideLengths#0;class#MakeADiamond#0" />
+                <element signature="method#tryAgain#0;class#MakeADiamond#0" />
+                <element signature="method#sides#0;class#MakeADiamond#0" />
+                <element signature="method#straight#0;class#MakeADiamond#0" />
+                <element signature="method#turnRight#0;class#MakeADiamond#0" />
+                <element signature="method#endSide#0;class#MakeADiamond#0" />
               </folding>
             </state>
           </provider>
@@ -122,6 +141,7 @@
       <find>setde</find>
       <find>side</find>
       <find>numberOfSides</find>
+      <find>turnRigh</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -169,15 +189,15 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534554406695" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534642352909" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -222,17 +242,18 @@
       <workItem from="1534554163102" duration="264000" />
       <workItem from="1534573043643" duration="8113000" />
       <workItem from="1534584466638" duration="164000" />
+      <workItem from="1534614548556" duration="4321000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24255000" />
+    <option name="totallyTimeSpent" value="28576000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="43" width="1260" height="706" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26190478" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26600984" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -289,10 +310,25 @@
     <entry file="file://$PROJECT_DIR$/src/functionMAD.java" />
     <entry file="file://$PROJECT_DIR$/src/MakeADiamond.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="53" column="31" lean-forward="true" selection-start-line="53" selection-start-column="31" selection-end-line="53" selection-end-column="31" />
+        <state relative-caret-position="720">
+          <caret line="240" column="5" lean-forward="true" selection-start-line="240" selection-start-column="5" selection-end-line="240" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#prompt#0;class#MakeADiamond#0" />
+            <element signature="method#fiveByFive#0;class#MakeADiamond#0" />
+            <element signature="method#fiveByFiveFilled#0;class#MakeADiamond#0" />
+            <element signature="method#anySizeTriangle#0;class#MakeADiamond#0" />
+            <element signature="method#anySizeSquare#0;class#MakeADiamond#0" />
+            <element signature="method#anySizeDiamond#0;class#MakeADiamond#0" />
+            <element signature="method#anySizePentagon#0;class#MakeADiamond#0" />
+            <element signature="method#anySizeHexagon#0;class#MakeADiamond#0" />
+            <element signature="method#anySizeOctogon#0;class#MakeADiamond#0" />
+            <element signature="method#anySizeAnyShapePrompt#0;class#MakeADiamond#0" />
+            <element signature="method#askForSideLengths#0;class#MakeADiamond#0" />
+            <element signature="method#tryAgain#0;class#MakeADiamond#0" />
+            <element signature="method#sides#0;class#MakeADiamond#0" />
+            <element signature="method#straight#0;class#MakeADiamond#0" />
+            <element signature="method#turnRight#0;class#MakeADiamond#0" />
+            <element signature="method#endSide#0;class#MakeADiamond#0" />
           </folding>
         </state>
       </provider>
