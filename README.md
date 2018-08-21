@@ -15,4 +15,7 @@ Diamond Maker
     - filled any size, any regular polygon,
     
     
-
+Step Builder
+    Step builder utilizes the java swing library to create prompts in pop-up windows that have users steer away from the console and more into UI-based elements. Some examples in this exercise include a just text pop-up and an Integer.parseInt pop-up that converts the string into an Integer.
+    
+    

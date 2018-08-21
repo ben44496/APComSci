@@ -17,7 +17,7 @@ public class MakeADiamond implements Directions {
 	int yorn;
 	//static int worldSizeX = sideLength*2 -1;
 	//int worldSizeY = sideLength+2;
-
+	int circleSize;
 
 
 	public static void main(String[] args) {
@@ -25,6 +25,7 @@ public class MakeADiamond implements Directions {
 		World.setVisible(true);
 		World.setDelay(1);
 		World.setSize(20, 20);
+		//World.setBeeperColor(java.awt.Color color);
 		System.out.println("Welcome! This is V1.0.0 of the ShapeMaker Program. We currently only support even-sided shapes. Have fun!");
 		ben.prompt();
 	}
@@ -32,12 +33,13 @@ public class MakeADiamond implements Directions {
 
 
 
-	private void prompt(){
+	private void prompt() {
 		System.out.println("Hi there. Please choose your options: ");
 		System.out.println("1: 5x5 diamond.");
 		System.out.println("2: 5x5 FILLED diamond");
 		System.out.println("3: Any sized diamond");
 		System.out.println("4: Any Shape, Any Size");
+		System.out.println("5: CiRcLe");
 
 		choice = keyboard.nextInt();
 
@@ -47,16 +49,19 @@ public class MakeADiamond implements Directions {
 		} else if (choice == 2) {
 			System.out.println(choice);
 			fiveByFiveFilled();
-		} else if (choice == 3){
+		} else if (choice == 3) {
 			System.out.println("c");
 			System.out.println("Note: This only does diamonds.");
 			System.out.println("What would be the side length?");
 			sideLength = keyboard.nextInt();
 			//World.setSize(worldSizeX, worldSizeY);
 			anySizeDiamond();
-		} else if (choice ==4){
+		} else if (choice == 4) {
 			System.out.println(choice);
 			anySizeAnyShapePrompt();
+		}else if (choice ==5) {
+			System.out.println(choice);
+			anySizeCircle();
 		}else{
 			System.out.println(choice +" is not a choice.");
 			tryAgain();
@@ -237,6 +242,15 @@ public class MakeADiamond implements Directions {
 				sides();
 			}
 			endSide();
+		}
+	}
+
+	private void anySizeCircle(){
+		System.out.println("What is the radius of the CiRcLe?");
+		circleSize = keyboard.nextInt();
+		System.out.println(circleSize);
+		for (int i=0; i<circleSize; i++){
+
 		}
 	}
 
