@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="StepBuilder:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/StepBuilder_jar</output-path>
+    <root id="archive" name="StepBuilder.jar">
+      <element id="module-output" name="StepBuilder" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/KarelJRobot.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
