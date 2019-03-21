@@ -18,7 +18,7 @@ public class StepBuilder  implements Directions{
 		// don't change this!!
 		StepBuilder sb = new StepBuilder();
 		World.setVisible(true);
-		World.setSize(20,20);
+		World.setSize(40,40);
 		World.setDelay(1);
 		sb.getInfoFromUser();
 		sb.buildSteps();
@@ -41,11 +41,16 @@ public class StepBuilder  implements Directions{
 	 * 
 	 */
 	private void getInfoFromUser() {
-		JOptionPane.showMessageDialog(panel, "Welcome to StepBuilder V1.0!");
+		JOptionPane.showMessageDialog(panel, "Welcome to StepBuilder V1.0! Only use integers and not words.");
 		//String name = JOptionPane.showInputDialog(panel, "Enter Name");
-		numSteps = Integer.parseInt( JOptionPane.showInputDialog(panel, "Insert number of Steps"));
-		stepHeight = Integer.parseInt( JOptionPane.showInputDialog(panel, "Insert step height"));
 
+		try {
+			numSteps = Integer.parseInt( JOptionPane.showInputDialog(panel, "Insert number of Steps"));
+			stepHeight = Integer.parseInt( JOptionPane.showInputDialog(panel, "Insert step height"));
+		}catch (Exception ex){
+			System.err.println("Try again. Use the Number Pad.");
+			getInfoFromUser();
+		}
 
 	}
 
@@ -63,31 +68,7 @@ public class StepBuilder  implements Directions{
 		}
 		worker.turnLeft();
 	}
-	/*private void stepsLeft(){
-		worker.putBeeper();
-		for (int i=0; i<stepHeight; i++){
-			worker.move();
-			worker.putBeeper();
-		}
-		turnRight();
-		for (int i=0; i<TREAD_LENGTH; i++){
-			worker.move();
-			worker.putBeeper();
-		}
-	}
 
-	private void stepsRight(){
-		worker.putBeeper();
-		for (int i=0; i<stepHeight; i++){
-			worker.move();
-			worker.putBeeper();
-		}
-		worker.turnLeft();
-		for (int i=0; i<TREAD_LENGTH; i++){
-			worker.move();
-			worker.putBeeper();
-		}
-	}*/
 
 
 

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="FileChooserFun">
+  <grid id="27dc6" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="16" y="113" width="500" height="185"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="74075" class="javax.swing.JButton" binding="runButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="2" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Run"/>
+        </properties>
+      </component>
+      <component id="18d2f" class="javax.swing.JButton" binding="cancelButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="2" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Cancel"/>
+        </properties>
+      </component>
+      <component id="cda97" class="javax.swing.JTextPane" binding="welcomeToTheFirstTextPane" default-binding="true">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="1" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+          <gridbag weightx="5.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <text value="Welcome to the first Room Cleaner Edition! Here we will have you input a .wld kareltherobot file and we will clean it up for you. This is the first version so there may be bugs. We hold no libailities for damages caused by incomplete room cleaning. Enjoy!"/>
+        </properties>
+      </component>
+      <component id="a2c08" class="javax.swing.JButton" binding="chooseYourFileButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-15232036"/>
+          <hideActionText value="false"/>
+          <text value="Choose Your File..."/>
+        </properties>
+      </component>
+      <component id="c348e" class="javax.swing.JEditorPane" binding="editorPane1" default-binding="true">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="bfab7" class="javax.swing.JTextArea" binding="roomCleanerV10TextArea" default-binding="true">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+          <gridbag weightx="0.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <background color="-327471"/>
+          <columns value="0"/>
+          <font name="Courier New" size="20" style="1"/>
+          <foreground color="-16777216"/>
+          <text value="Room Cleaner V1.0.0"/>
+        </properties>
+      </component>
+      <hspacer id="7c06f">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="c9751">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+      </hspacer>
+    </children>
+  </grid>
+</form>

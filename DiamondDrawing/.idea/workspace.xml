@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f99f1d1-795d-4d2a-b76a-e64e07af6a0a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../FillAnyShape/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CircleDrawing/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DiamondDrawing/MakeADiamond.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DiamondDrawing/MakeADiamond.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DiamondDrawing/MakeADiamond.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MakeADiamond.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MakeADiamond.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FillAnyShape/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FillAnyShape/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StepBuilder/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../StepBuilder/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StepBuilder/src/StepBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../StepBuilder/src/StepBuilder.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -79,22 +81,24 @@
     <session id="805428712">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
-          <entry key="project.open.time.1" value="2" />
+          <entry key="project.closed" value="11" />
+          <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.14" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.12" value="3" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.14" value="2" />
+          <entry key="project.open.time.27" value="1" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="987" />
+          <entry key="java" value="4345" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="987" />
+          <entry key="JAVA" value="4345" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -117,9 +121,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MakeADiamond.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="327" column="49" selection-start-line="327" selection-start-column="49" selection-end-line="327" selection-end-column="49" />
+            <state relative-caret-position="360">
+              <caret line="572" column="27" lean-forward="true" selection-start-line="572" selection-start-column="27" selection-end-line="572" selection-end-column="27" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="method#fiveByFive#0;class#MakeADiamond#0" />
                 <element signature="method#fiveByFiveFilled#0;class#MakeADiamond#0" />
                 <element signature="method#anySizeTriangle#0;class#MakeADiamond#0" />
@@ -176,9 +181,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="10" />
-    <option name="y" value="43" />
-    <option name="width" value="1260" />
+    <option name="y" value="23" />
+    <option name="width" value="1270" />
     <option name="height" value="706" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -187,8 +191,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -205,15 +209,16 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534642352909" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535492673624" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
@@ -260,16 +265,23 @@
       <workItem from="1534793597949" duration="2716000" />
       <workItem from="1534802473164" duration="680000" />
       <workItem from="1534894325144" duration="91000" />
+      <workItem from="1535059668875" duration="6864000" />
+      <workItem from="1535218464020" duration="12388000" />
+      <workItem from="1535398093992" duration="4570000" />
+      <workItem from="1535490236304" duration="2433000" />
+      <workItem from="1535657107275" duration="89000" />
+      <workItem from="1535661276028" duration="6553000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32063000" />
+    <option name="totallyTimeSpent" value="64960000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="43" width="1260" height="706" extended-state="0" />
+    <frame x="0" y="23" width="1270" height="706" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2783251" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09690554" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -327,9 +339,10 @@
     <entry file="file://$PROJECT_DIR$/../DiamondDrawing copy/src/MakeADiamond.java" />
     <entry file="file://$PROJECT_DIR$/src/MakeADiamond.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="327" column="49" selection-start-line="327" selection-start-column="49" selection-end-line="327" selection-end-column="49" />
+        <state relative-caret-position="360">
+          <caret line="572" column="27" lean-forward="true" selection-start-line="572" selection-start-column="27" selection-end-line="572" selection-end-column="27" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="method#fiveByFive#0;class#MakeADiamond#0" />
             <element signature="method#fiveByFiveFilled#0;class#MakeADiamond#0" />
             <element signature="method#anySizeTriangle#0;class#MakeADiamond#0" />
