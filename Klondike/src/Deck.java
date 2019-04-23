@@ -12,16 +12,20 @@ public class Deck extends Pile {
             pile.add(new Card(v, Card.Suits.DIAMONDS));
             pile.add(new Card(v, Card.Suits.SPADES));
         }
-//        shuffle();
+        shuffle();
     }
     @Override
     public void draw(Graphics g){
         if(this.pile.size()>0){
-            pile.get(0).draw(g, this.xLoc, yLoc);
+            pile.get(pile.size()-1).draw(g, this.xLoc, yLoc);
         }
         else{
             g.setColor(Color.lightGray);
             g.drawRect(xLoc, yLoc, 50, 70);
         }
+    }
+
+    public void deal(){
+
     }
 }

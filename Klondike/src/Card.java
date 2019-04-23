@@ -7,6 +7,8 @@ import javax.imageio.ImageIO;
 
 public class Card implements Comparable<Card> {
 
+    private int x,y;
+
     public final static String PATH_PREFIX = "src/";
     private int value;
     public static enum Suits {SPADES, DIAMONDS, HEARTS, CLUBS};
@@ -90,5 +92,6 @@ public class Card implements Comparable<Card> {
     public boolean isFaceUp(){
         return faceUp;
     }
+    public void setFaceUp(boolean bool){faceUp=bool;}
 
 }
